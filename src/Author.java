@@ -29,7 +29,7 @@ public class Author {
         return "Автор книги: " + getName() + " " + getSurname();
     }
 
-    @Override
+
     public boolean equals(Object obj) {
         if(this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
@@ -37,7 +37,7 @@ public class Author {
         return name.equals(author.name) && surname.equals(author.surname);
     }
 
-    @Override
+
     public int hashCode() {
         return Objects.hash(name, surname);
     }

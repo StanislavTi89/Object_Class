@@ -10,6 +10,10 @@ public class Main {
 
         //Методы объектов
         System.out.println("Методы_объектов");
+        Author author1 = new Author("Наталья", "Иосифовна");
+        Author author2 = new Author("Мария", "Иосифовна");
+        System.out.println(author1.equals(author2));
+        System.out.println(author2);
     }
 
 }
