@@ -37,7 +37,7 @@ public class Book {
     }
 
     public String toString() {
-        return "Название книги: ," + title + "Автор книги: ," + author + "Год Публикации: ," + published;
+        return "Название книги: " + title + ", Автор книги: " + author + ", Год публикации: " + published;
     }
 
     public boolean equals(Object obj) {

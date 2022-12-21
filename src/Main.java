@@ -14,6 +14,8 @@ public class Main {
         Author author2 = new Author("Мария", "Иосифовна");
         System.out.println(author1.equals(author2));
         System.out.println(author2);
+        Book book1 = new Book("Тут все написано", author1, 1971);
+        System.out.println(book1);
     }
 
 }

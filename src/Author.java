@@ -26,7 +26,7 @@ public class Author {
     }
 
     public String toString() {
-        return "Автор книги: " + getName() + " " + getSurname();
+        return getName() + " " + getSurname();
     }
 
 
