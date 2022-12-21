@@ -1,9 +1,9 @@
 
 public class Book {
     //содержит в себе данные об имени, авторе и годе публикации
-    public String title;
-    public Author author;
-    public int published;
+    private String title;
+    private Author author;
+    private int published;
 
     public Book (String title, Author author, int published) {
         this.title = title;
@@ -34,4 +34,5 @@ public class Book {
     public void setPublished(int published) {
         this.published = published;
     }
+
 }

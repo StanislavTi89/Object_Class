@@ -2,8 +2,8 @@ import java.util.Objects;
 
 public class Author {
     //содержит в себе данные об имени и фамилии автора.
-    public String name;
-    public String surname;
+    private String name;
+    private String surname;
 
     public Author(String name, String surname) {
         this.name = name;
