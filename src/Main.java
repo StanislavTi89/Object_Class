@@ -8,4 +8,5 @@ public class Main {
         Book book = new Book("Двухсотлетний человек", author,1976);
         System.out.println(book.getTitle() +" , " + book.getAuthor() + " , " + book.getPublished());
     }
+    //Методы объектов
 }
